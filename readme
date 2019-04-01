@@ -1,1 +1,4 @@
-跨平台-嵌入式版本
+跨平台-嵌入式版本。
+运行在.net core2.2 环境下，运行时下载 https://dotnet.microsoft.com/download/dotnet-core/2.2。
+数据库采用sqlite3。
+设备驱动dll命名规则由windows平台的XXX.NET.dll 改成 XXX.STD.dll,STD表示是.NET Standard 标准库。
